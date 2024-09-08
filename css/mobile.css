@@ -1,0 +1,150 @@
+@media (max-width: 500px) {
+  /*banner*/
+  .banner img {
+    width: 500px;
+    height: auto;
+  }
+
+  .banner h1 {
+    width: 350px;
+  }
+  /*nav*/
+  #nav-container {
+    border: none;
+    display: block;
+    justify-content: start;
+    height: auto;
+  }
+
+  #nav-name {
+    display: none;
+  }
+
+  #nav-info,
+  #nav-sche,
+  #nav-degr,
+  #nav-proj {
+    border: none;
+    display: block;
+    width: auto;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+
+  /*info*/
+  .info {
+    display: block;
+  }
+
+  .target,
+  .information {
+    width: auto;
+  }
+
+  .target {
+    padding-bottom: 30px;
+  }
+
+  .info .tcontent {
+    width: auto;
+  }
+
+  .tcontent .grey {
+    margin-bottom: 0;
+  }
+
+  /*career*/
+
+  .career .grid {
+    grid-template-columns: 300px;
+  }
+
+  .career .padding {
+    padding: 40px 0;
+  }
+
+  /*degrees*/
+  .degrees {
+    text-align: center;
+  }
+
+  .degrees.title {
+    text-align: left;
+  }
+
+  .degrees .grid {
+    grid-template-columns: auto;
+  }
+  .degrees .flex {
+    display: block;
+  }
+
+  .degrees img {
+    width: 80%;
+  }
+
+  .oline {
+    display: none;
+  }
+
+  .degrees .title {
+    grid-column: 1 / span 1;
+    text-align: left;
+  }
+
+  .PRF,
+  .WEB,
+  .DBI {
+    border-left: none;
+    border-bottom: solid 2px #d6c08d;
+  }
+
+  .txt-left {
+    padding-left: 50px;
+  }
+
+  /*plans*/
+  .plans .grid {
+    grid-template-columns: auto;
+  }
+
+  .plans img {
+    width: 100%;
+  }
+
+  .plans .title {
+    grid-column: 1 / span 1;
+    text-align: left;
+    grid-template-columns: 100%;
+  }
+
+  .plans .special {
+    width: 30px;
+    margin-bottom: 0;
+  }
+
+  .yfd {
+    display: block;
+  }
+
+  .fd {
+    height: auto;
+    display: block;
+  }
+
+  .plans i {
+    padding-left: 0;
+  }
+
+  .Dev,
+  .FU {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  /*contact*/
+  .contacts .icons {
+    margin-right: 20px;
+  }
+}

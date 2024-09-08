@@ -1,0 +1,98 @@
+@media (max-width: 1280px) {
+  /*banner*/
+  .banner img {
+    width: auto;
+    height: auto;
+  }
+  /*navbar*/
+  #nav-container {
+    border: none;
+  }
+
+  #nav-name {
+    display: none;
+  }
+
+  #nav-sche {
+    margin-right: 20px;
+  }
+
+  #nav-degr {
+    margin-left: 20px;
+  }
+
+  #nav-info,
+  #nav-sche,
+  #nav-degr,
+  #nav-proj {
+    padding: 0 20px;
+  }
+  /*info*/
+  .target {
+    width: 47%;
+  }
+
+  .information {
+    width: 53%;
+  }
+
+  /*career*/
+  .career .grid {
+    grid-template-columns: 60% 60%;
+  }
+
+  .hobby .icons {
+    gap: 30px;
+  }
+
+  /*degrees*/
+
+  .degrees .grid {
+    grid-template-columns: auto auto;
+    column-gap: 12px;
+  }
+
+  .degrees img {
+    width: 90%;
+    height: auto;
+  }
+
+  .degrees .flex {
+    display: block;
+  }
+
+  /*plans*/
+
+  .plans .grid {
+    grid-template-columns: auto auto auto;
+  }
+
+  .plans img {
+    width: 100%;
+  }
+
+  .yfd {
+    height: auto;
+  }
+
+  .fd {
+    display: block;
+    height: auto;
+  }
+
+  .FU {
+    margin-top: 15px;
+  }
+
+  .FU,
+  .Dev {
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .career .grid {
+    grid-template-columns: 90% 90%;
+  }
+}
